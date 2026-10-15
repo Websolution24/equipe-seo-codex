@@ -1,0 +1,37 @@
+# Caches et environnements Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Fichiers temporaires et journaux locaux
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Configurations personnelles : conserver .codex/agents/ et l'exemple Ranxplorer
+**/.codex/config.toml
+**/.codex/config.local.toml
+**/.codex/*.local.toml
+**/.codex/*.local.json
+.vscode/settings.json
+
+# Variables d'environnement et autorisations locales
+.env
+.env.*
+!.env.example
+!.env.sample
+client_secret*.json
+credentials*.json
+token*.json
+*.pem
+*.key
